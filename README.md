@@ -1,45 +1,64 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Personal Portfolio Website
 
-Welcome USER_NAME,
+This website is a personal portfolio website to highlight my own skills, experience with programming to target potential employers, collaborators and partners. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+Included in this overview will be insights into my own personal journey as a developer. Sections on Work Experience, Project Experience and semi-formal descriptive text with complimenting images will be the primary content across this small site. 
 
-## Gitpod Reminders
+There will be three pages; 
+- home.html
+- projects.html
+- contact.hmtl
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+# Wireframes;
+![Homev1](https://share.balsamiq.com/c/qgwUsafFrv6n8ECs72a4mg.png)
 
-`python3 -m http.server`
+I decided it would be helpful to have a section below my work experience, highlighting any academic and professional achievements that I have attained. 
 
-A blue button should appear to click: *Make Public*,
+![Homev2](https://share.balsamiq.com/c/gFArqK4b66LUBPTV2ANi6A.png)
 
-Another blue button should appear to click: *Open Browser*.
+![Projects](https://share.balsamiq.com/c/b1v9stxqfJdGvX5Dxt5pGE.png)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+![Contact](https://share.balsamiq.com/c/aZeQRHAjPDTxiM6CWQ1Prs.png)
 
-A blue button should appear to click: *Make Public*,
+## UX 
 
-Another blue button should appear to click: *Open Browser*.
+## Features
+- Responsive Navigation menu
+- Show Text Over An Image On Click (Js) for Work Experience section of home page
+- Button menu to control content shown by Language for Projects page
+- Form Input section for Contact Page
+- External Linking for Social Media and Contact img links (Font-awesome)
+- Hover affect (hover.css) for images on Work Experience sections and Projects sections
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Existing Features
 
-## Updates Since The Instructional Video
+### Features Left to Implement
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Technologies Used
+- [HTML]()
+    - The project uses **HTML**.
+- [CSS]()
+    - The project uses **CSS**.
+- [Javascript]()
+    - The project uses **Javascript**.
+- [Bootstrap]()
+    - The project uses **Bootstap** to simplify the content structure and provide pre-built functionalities such as navigational templates and grid-classes.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Testing
+#Navigation
+- Centering of navigation in [!img nav-not-centered]
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Deployment
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Credits
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Content
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Media
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+### Acknowledgements
+- FETAC Level 5 information technology course
+    - Html and CSS fundamentals
+- Udemy;
+    - Javascript
+    - Bootstrap
