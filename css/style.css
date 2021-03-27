@@ -1,0 +1,56 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    color:#717171;
+}
+
+.page-header {
+    margin-top:30px;
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.container {
+    border:1px black solid;
+    display: block;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:30%;
+    margin-right:30%;
+}
+
+/*---------- Nav */
+
+
+/*---------- Nav End */
+
+/*----------  Profile  */ 
+
+.aboutme-img.img {
+    height:400px;
+    width:400px;
+}
+
+/*----------  Profile End */
+
+/*----------  Work Exp. */ 
+.work-experience-section {}
+
+.work-experience-img {}
+
+.teamwork {}
+.learn4fun {}
+.voxpro {}
+.mcdonalds {}
+.eddies {}
+
+/*----------  Work Exp. End */
+
+/*----------  Projects Description */ 
+/*----------  Projects Description End */
+
+/*----------  Project container*/ 
+/*----------  Project container End */
+
+/*----------  Footer */ 
+/*----------  Footer End */
