@@ -1,56 +1,197 @@
 * {
-    font-family: 'Roboto', sans-serif;
-    color:#717171;
+    font-family: 'Raleway', sans-serif;
+    color: #e7e7e7;
 }
 
+body {
+    min-height: 100vh;
+    max-width: 100%;
+    padding: 5% 5%;
+    background-color: #25252B;
+}
+
+hr {
+    margin-top: 1px;
+    width: 90%;
+}
+
+p {
+    color: white;
+    font-size: small;
+}
+
+div {}
+
 .page-header {
-    margin-top:30px;
+    margin-top: 30px;
     margin-bottom: 0;
     border-bottom: 0;
     text-align: center;
 }
 
 .container {
-    border:1px black solid;
+    border: 1px black solid;
+    margin-top: 20px;
+}
+
+.row {
     display: block;
-    margin-top:20px;
-    margin-bottom:20px;
-    margin-left:30%;
-    margin-right:30%;
 }
 
 /*---------- Nav */
 
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    margin: 2px;
+}
 
 /*---------- Nav End */
 
-/*----------  Profile  */ 
+/*----------  Profile  */
+.aboutme-img {
+    margin: 4px auto;
+    margin-left: 30px;
+}
 
-.aboutme-img.img {
-    height:400px;
-    width:400px;
+.aboutme-img img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 1px solid #1e1e1e;
+}
+
+.about-me-text {
+    background-color: rgba(43, 43, 43, 0.2);
+    color: white;
+    height: auto;
+    width: 90%;
+    padding: 5px;
+}
+
+.btn {
+    background-color: #519aba;
+    border-color: #519aba;
+    margin-top: 15px;
+}
+
+.resume-btn {}
+
+.button-primary-override:hover,
+.button-primary-override:active,
+.button-primary-override:focus,
+.button-primary-override:visited {
+    background-color: #519aba !important;
+    border-color: #519aba !important;
+    background-image: none !important;
+    border: 0 !important;
 }
 
 /*----------  Profile End */
 
-/*----------  Work Exp. */ 
-.work-experience-section {}
+/*----------  Work Exp. */
+.work-experience-section {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-.work-experience-img {}
+.work-experience-section h2 {}
 
-.teamwork {}
-.learn4fun {}
-.voxpro {}
-.mcdonalds {}
-.eddies {}
+
+.onClickTextOverImg {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    display: inline-block;
+    border-radius: 16px;
+    margin: 4px;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    position: relative;
+}
+
+.onClickTextOverImg div {
+    position: absolute;
+    color: #519aba;
+    padding: 8px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 16px;
+    padding-top: 35%;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+
+.onClickTextOverImg.show div {
+    opacity: 1;
+    padding-top: 40%;
+    visibility: visible;
+}
+
+.work-experience-img {
+    border: 1px solid rgb(33, 34, 34);
+}
+
+.work-experience-img .teamwork {
+    background-image: url("/images/teamwork.png");
+    background-color: #519aba;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.work-experience-img .learn4fun {
+    background-image: url("/images/learn4fun.jpeg");
+}
+
+.work-experience-img .voxpro {
+    background-image: url("/images/teamwork.png");
+}
+
+.work-experience-img .mcdonalds {
+    background-image: url("/images/mcdonalds.png");
+}
+
+.work-experience-img .eddies {
+    background-image: url("/images/eddie_roclets_logo.png");
+}
 
 /*----------  Work Exp. End */
 
-/*----------  Projects Description */ 
+
+/*----------  Achievements */
+
+.achievements-section {
+    margin: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.achievements-section div {
+    margin: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.achievement-icon {
+    border: 1px dashed #519aba;
+}
+
+/*----------  Achievements End */
+
+/*----------  Projects Description */
 /*----------  Projects Description End */
 
-/*----------  Project container*/ 
+/*----------  Project container*/
 /*----------  Project container End */
 
-/*----------  Footer */ 
+/*----------  Footer */
 /*----------  Footer End */
