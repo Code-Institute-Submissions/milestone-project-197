@@ -10,17 +10,33 @@ There will be three pages;
 - contact.hmtl
 
 # Wireframes;
-![Homev1](https://share.balsamiq.com/c/qgwUsafFrv6n8ECs72a4mg.png)
+Home (v1)
+![Homev1 Wireframe](https://share.balsamiq.com/c/qgwUsafFrv6n8ECs72a4mg.png)
 
-I decided it would be helpful to have a section below my work experience, highlighting any academic and professional achievements that I have attained. 
+I decided it would be helpful to have a section below my work experience, highlighting any academic and professional achievements that I have attained.
 
-![Homev2](https://share.balsamiq.com/c/gFArqK4b66LUBPTV2ANi6A.png)
+Home (v2)
+![Homev2 Wireframe](https://share.balsamiq.com/c/gFArqK4b66LUBPTV2ANi6A.png)
 
-![Projects](https://share.balsamiq.com/c/b1v9stxqfJdGvX5Dxt5pGE.png)
+Projects
+![Projects Wireframe](https://share.balsamiq.com/c/b1v9stxqfJdGvX5Dxt5pGE.png)
 
-![Contact](https://share.balsamiq.com/c/aZeQRHAjPDTxiM6CWQ1Prs.png)
+Contact
+![Contact Wireframe](https://share.balsamiq.com/c/aZeQRHAjPDTxiM6CWQ1Prs.png)
 
 ## UX 
+For UX Design, I'm going with a mimic of VsCode's [Dark Theme](https://code.visualstudio.com/docs/getstarted/themes).
+For the last few years this has been my primary editor, and I've come to really like the color-scheme it uses.
+I feel this scheme combined with a resumé/portfolio style website would be complimentary. 
+
+Main Background; 
+
+Interactive elements;
+
+Headings;
+
+Text/paragraphs;
+
 
 ## Features
 - Responsive Navigation menu
