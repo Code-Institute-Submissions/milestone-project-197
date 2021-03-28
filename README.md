@@ -73,6 +73,9 @@ Once I got testing it in codepen and with help from a udemy course (Creditted) I
 ### CSS Validation Error;
 ![CSS Validation Error](images/readme_imgs/validationErr.png)
 
+### Color scheme + hex values; 
+[Hexcol](https://hexcol.com/)
+
 ______
 ## Deployment
 - Github pages
