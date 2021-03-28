@@ -12,14 +12,13 @@ body {
 h1,
 h5 {
     color: #9CDCFE;
-    font-weight: 130%;
-    padding: 10px;
-
 }
 
 hr {
     margin-top: 0;
-    width: 90%;
+    width: 100%;
+    color: white;
+    border-width: 2px;
 }
 
 p {
@@ -33,15 +32,12 @@ div {}
     margin-bottom: 0;
     border-bottom: 0;
     text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
-
-.textarea-title {
-    font-size: medium;
-}
-
 
 .container {
-    border: 1px black solid;
     margin-top: 20px;
     max-width: 80%;
 }
@@ -51,7 +47,6 @@ div {}
 }
 
 /*---------- Nav */
-
 .navbar {
     margin-top: 10px;
 }
@@ -83,6 +78,14 @@ div {}
 
 .navbar-collapse {
     max-width: 30%;
+}
+
+nav .navbar-nav li a {
+    color: #519aba !important;
+}
+
+.navbar-toggler-icon {
+    color: red;
 }
 
 /*---------- Nav End */
@@ -127,6 +130,7 @@ div {}
 
     color: white;
     text-align: justify;
+    font-size: 80%;
 }
 
 .btn {
@@ -145,7 +149,6 @@ div {}
 .button-primary-override:focus,
 .button-primary-override:visited {
     background-color: #519aba !important;
-    border-color: #519aba !important;
     background-image: none !important;
     border: 0 !important;
 }
@@ -156,7 +159,9 @@ div {}
 .work-experience-section {
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
+
 
 .onClickTextOverImg {
     width: 200px;
@@ -168,7 +173,6 @@ div {}
     box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
     cursor: pointer;
     position: relative;
-
 }
 
 .onClickTextOverImg div {
@@ -196,28 +200,34 @@ div {}
 
 .work-experience-img {
     border: 1px solid rgba(120, 120, 120, 0.2);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90%;
+    background-color: white;
+    opacity: 0.8;
+
 }
 
-.work-experience-img .teamwork {
+.work-experience-img.teamwork {
     background-image: url("../images/teamwork.png");
-    background-color: #519aba;
 }
 
-.work-experience-img .learn4fun {
+.work-experience-img.learn4fun {
     background-image: url("../images/learn4fun.jpeg");
 }
 
-.work-experience-img .voxpro {
-    background-image: url("../images/teamwork.png");
+.work-experience-img.voxpro {
+    background-image: url("../images/Voxpro_Logo.jpg");
 }
 
-.work-experience-img .mcdonalds {
+.work-experience-img.mcdonalds {
     background-image: url("../images/mcdonalds.png");
 }
 
-.work-experience-img .eddies {
-    background-image: url("../images/eddie_roclets_logo.png");
+.work-experience-img.eddies {
+    background-image: url("../images/eddie_rockets_logo.png");
 }
+
 
 /*----------  Work Exp. End */
 
@@ -225,20 +235,23 @@ div {}
 /*----------  Achievements */
 
 .achievements-section {
-    margin: 10px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 .achievements-section div {
-    margin: 10px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    height: auto;
 }
 
 .achievement-icon {
-    border: 1px dashed #519aba;
+    border: 1px solid white;
+    color: #519aba;
+    margin: 5px;
+    padding-top: 15px;
+    margin: 0;
 }
+
 
 /*----------  Achievements End */
 
@@ -251,11 +264,18 @@ div {}
 /*----------  Footer */
 footer {
     border: 1px solid black;
-    color: red;
+    color: #519aba;
+    font-size: small;
+    text-align: center;
+}
 
-    margin-top: 15px;
-    height: 75px;
-    margin-bottom: 5;
+footer i {
+    font-size: large;
+    padding: 10px;
+}
+
+footer .copyright {
+    font-style: italic;
 }
 
 /*----------  Footer End */

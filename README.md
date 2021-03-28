@@ -61,7 +61,7 @@ I feel this scheme combined with a resumé/portfolio style website would be comp
 
 ## Testing
 ### Navigation
-- Centering of navigation in [!img nav-not-centered]
+- Centering of navigation
 
 ### onClickTextOverImg
 - I needed to use an external source (CodePen) to test this functionality and get it right; 
@@ -70,6 +70,10 @@ https://codepen.io/evane123/pen/vYgKmMM
 Implementing it directly into the website proved very difficult. I found myself getting a bit confused with linking the class name between the script tag, html and css. 
 Once I got testing it in codepen and with help from a udemy course (Creditted) I was able to get the desired functionality.
 
+### CSS Validation Error;
+![CSS Validation Error](images/readme_imgs/validationErr.png)
+
+______
 ## Deployment
 - Github pages
 I've opted to use [Github Pages](https://pages.github.com/) 
