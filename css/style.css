@@ -1,29 +1,24 @@
 * {
     font-family: 'Raleway', sans-serif;
-    color: #e7e7e7;
 }
 
 body {
     min-height: 100vh;
     max-width: 100%;
     padding: 5% 5%;
-    background-color: rgba(81, 47, 233, 0.8);
+    background-color: rgb(64, 64, 64);
 }
 
 h1,
 h5 {
     color: #9CDCFE;
     font-weight: 130%;
-}
+    padding: 10px;
 
-.navbar-toggler {
-    float: left;
-    margin-right: 90%;
-    height: 35px;
 }
 
 hr {
-    margin-top: 1px;
+    margin-top: 0;
     width: 90%;
 }
 
@@ -35,15 +30,20 @@ p {
 div {}
 
 .page-header {
-    margin-top: 30px;
     margin-bottom: 0;
     border-bottom: 0;
     text-align: center;
 }
 
+.textarea-title {
+    font-size: medium;
+}
+
+
 .container {
     border: 1px black solid;
     margin-top: 20px;
+    max-width: 80%;
 }
 
 .row {
@@ -52,33 +52,81 @@ div {}
 
 /*---------- Nav */
 
+.navbar {
+    margin-top: 10px;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
 .navbar ul {
     list-style-type: none;
     display: flex;
     margin: 2px;
 }
 
+.navbar-toggler {
+    float: left;
+    margin-right: 90%;
+    height: 35px;
+}
+
+.navbar-nav ul {
+    background-color: rgb(64, 64, 64);
+}
+
+.navbar-collapse {
+    max-width: 30%;
+}
+
 /*---------- Nav End */
 
 /*----------  Profile  */
+.about-me-section {
+    margin-top: 20px;
+}
+
 .aboutme-img {
-    margin: 4px auto;
-    margin-left: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
 }
 
 .aboutme-img img {
-    height: 200px;
-    width: 200px;
+    height: 100%;
+    max-height: 260px;
+    max-width: 260px;
+    width: 100%;
     border-radius: 50%;
     border: 1px solid #1e1e1e;
 }
 
 .about-me-text {
-    background-color: rgba(43, 43, 43, 0.2);
-    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: rgba(120, 120, 120, 0.4);
     height: auto;
-    width: 90%;
-    padding: 5px;
+    max-height: 60%;
+    width: 70%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-me-text p {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+
+    color: white;
+    text-align: justify;
 }
 
 .btn {
@@ -87,7 +135,10 @@ div {}
     margin-top: 15px;
 }
 
-.resume-btn {}
+.resume-btn {
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .button-primary-override:hover,
 .button-primary-override:active,
@@ -103,13 +154,9 @@ div {}
 
 /*----------  Work Exp. */
 .work-experience-section {
-    display: block;
     margin-left: auto;
     margin-right: auto;
 }
-
-.work-experience-section h2 {}
-
 
 .onClickTextOverImg {
     width: 200px;
@@ -120,7 +167,7 @@ div {}
     margin: 4px;
     box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
     cursor: pointer;
-    position: relative;
+    position: center;
 }
 
 .onClickTextOverImg div {
@@ -147,17 +194,12 @@ div {}
 }
 
 .work-experience-img {
-    border: 1px solid rgb(33, 34, 34);
+    border: 1px solid rgba(120, 120, 120, 0.2);
 }
 
 .work-experience-img .teamwork {
     background-image: url("/images/teamwork.png");
     background-color: #519aba;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-left: auto;
-    margin-right: auto
 }
 
 .work-experience-img .learn4fun {
@@ -206,4 +248,13 @@ div {}
 /*----------  Project container End */
 
 /*----------  Footer */
+footer {
+    border: 1px solid black;
+    color: red;
+
+    margin-top: 15px;
+    height: 75px;
+    margin-bottom: 5;
+}
+
 /*----------  Footer End */

@@ -120,7 +120,7 @@ In the future, I intend to clean up my environment so that each project can be h
 
 ### Media
 ### images folder
-    - eddie_rockets_logo.png
+- eddie_rockets_logo.png
 
 
 ### readme_imgs folder
