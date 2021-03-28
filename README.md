@@ -10,18 +10,18 @@ There will be three pages;
 - contact.hmtl
 
 # Wireframes;
-Home (v1)
+### Home (v1)
 ![Homev1 Wireframe](https://share.balsamiq.com/c/qgwUsafFrv6n8ECs72a4mg.png)
 
 I decided it would be helpful to have a section below my work experience, highlighting any academic and professional achievements that I have attained.
 
-Home (v2)
+### Home (v2)
 ![Homev2 Wireframe](https://share.balsamiq.com/c/gFArqK4b66LUBPTV2ANi6A.png)
 
-Projects
+### Projects
 ![Projects Wireframe](https://share.balsamiq.com/c/b1v9stxqfJdGvX5Dxt5pGE.png)
 
-Contact
+### Contact
 ![Contact Wireframe](https://share.balsamiq.com/c/aZeQRHAjPDTxiM6CWQ1Prs.png)
 
 ## UX 
@@ -29,14 +29,13 @@ For UX Design, I'm going with a mimic of VsCode's [Dark Theme](https://code.visu
 For the last few years this has been my primary editor, and I've come to really like the color-scheme it uses.
 I feel this scheme combined with a resumé/portfolio style website would be complimentary. 
 
-Main Background; 
+- Main Background; 
 
-Interactive elements;
+- Interactive elements;
 
-Headings;
+- Headings;
 
-Text/paragraphs;
-
+- Text/paragraphs;
 
 ## Features
 - Responsive Navigation menu
@@ -61,10 +60,10 @@ Text/paragraphs;
     - The project uses **Bootstap** to simplify the content structure and provide pre-built functionalities such as navigational templates and grid-classes.
 
 ## Testing
-#Navigation
+### Navigation
 - Centering of navigation in [!img nav-not-centered]
 
-# onClickTextOverImg
+### onClickTextOverImg
 - I needed to use an external source (CodePen) to test this functionality and get it right; 
 https://codepen.io/evane123/pen/vYgKmMM
 
@@ -120,10 +119,16 @@ In the future, I intend to clean up my environment so that each project can be h
 ![Languages](images/readme_imgs/languages.png)
 
 ### Media
+### images folder
+    - eddie_rockets_logo.png
+
+
+### readme_imgs folder
+- Github Private Repo screenshots acquired while logged into my github.com account. 
 
 ### Acknowledgements
 - FETAC Level 5 information technology course
     - Html and CSS fundamentals
 - Udemy;
-    - Javascript
-    - Bootstrap
+    - [Web Design](https://www.udemy.com/course/web-design-for-beginners-real-world-coding-in-html-css/)
+    - [Javascript](https://www.udemy.com/course/the-complete-javascript-course/)
