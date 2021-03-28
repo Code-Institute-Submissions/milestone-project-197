@@ -7,7 +7,19 @@ body {
     min-height: 100vh;
     max-width: 100%;
     padding: 5% 5%;
-    background-color: #25252B;
+    background-color: rgba(81, 47, 233, 0.8);
+}
+
+h1,
+h5 {
+    color: #9CDCFE;
+    font-weight: 130%;
+}
+
+.navbar-toggler {
+    float: left;
+    margin-right: 90%;
+    height: 35px;
 }
 
 hr {
