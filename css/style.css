@@ -111,7 +111,7 @@ div {}
 .about-me-text {
     margin-top: 20px;
     margin-bottom: 10px;
-    background-color: rgba(120, 120, 120, 0.4);
+    background-color: rgba(112, 112, 112, 0.4);
     height: auto;
     max-height: 60%;
     width: 70%;
@@ -167,7 +167,8 @@ div {}
     margin: 4px;
     box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
     cursor: pointer;
-    position: center;
+    position: relative;
+
 }
 
 .onClickTextOverImg div {
@@ -198,24 +199,24 @@ div {}
 }
 
 .work-experience-img .teamwork {
-    background-image: url("/images/teamwork.png");
+    background-image: url("../images/teamwork.png");
     background-color: #519aba;
 }
 
 .work-experience-img .learn4fun {
-    background-image: url("/images/learn4fun.jpeg");
+    background-image: url("../images/learn4fun.jpeg");
 }
 
 .work-experience-img .voxpro {
-    background-image: url("/images/teamwork.png");
+    background-image: url("../images/teamwork.png");
 }
 
 .work-experience-img .mcdonalds {
-    background-image: url("/images/mcdonalds.png");
+    background-image: url("../images/mcdonalds.png");
 }
 
 .work-experience-img .eddies {
-    background-image: url("/images/eddie_roclets_logo.png");
+    background-image: url("../images/eddie_roclets_logo.png");
 }
 
 /*----------  Work Exp. End */
