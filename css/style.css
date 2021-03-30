@@ -28,7 +28,8 @@ h1,
 h5 {
     color: #017fc6;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 15px;
+
 }
 
 hr {
@@ -127,7 +128,7 @@ nav .navbar-nav li a {
     max-width: 260px;
     width: 100%;
     border-radius: 50%;
-    border: 1px solid #1e1e1e;
+    border: 1px solid #e4e4e4;
 }
 
 .highlight-text {
@@ -306,6 +307,72 @@ button>a {
 /*----------  Achievements End */
 
 /*----------  Projects Description */
+.collapsible-projects button {
+    color: #017fc6;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.collapsible {
+    background-color: rgba(112, 112, 112, 0.2);
+    margin: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.active,
+.collapsible:hover {
+    background-color: rgba(112, 112, 112, 0.2);
+}
+
+.collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.project-section .active:after {
+    content: "\2212";
+}
+
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: rgba(112, 112, 112, 0.2);
+    border-radius: 5%;
+
+}
+
+.content img {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 300px;
+}
+
+.coming-soon-content>ul,
+.bot-feature-content>ul {
+    color: #017fc6;
+    text-align: justify;
+    padding-top: 0;
+    font-size: 80%;
+}
+
+.coming-soon-content>p {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
 
 /*----------  Projects Description End */
 
@@ -335,9 +402,9 @@ a {
     background-color: #dcdcaa;
 }
 
-/*----------  Project container End */
+/*---------- Project container End */
 
-/*----------  Contact Me section */
+/*---------- Contact Me section */
 .contact-me {}
 
 .contact-me-icons ul {
@@ -419,10 +486,17 @@ div.icons {
         text-align: justify;
     }
 
-
     .education-section {
         font-size: 100%;
     }
+
+    span .p-link-text {
+        font-size: 85%;
+        text-align: center;
+        padding-left: auto;
+        padding-right: auto;
+    }
+
 }
 
 /* Large devices (large desktops, 1200px and up) */

@@ -51,6 +51,7 @@ White
 - Hover affect (hover.css) for images on Work Experience sections and Projects sections
 - Clickable footer links 
 - Progress bar/striped 
+- [Collapsible content](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_collapsible)
 
 ### Existing Features
 For my employment experience section, an on-click action(Working)
@@ -65,6 +66,7 @@ The functionality I wanted for this section was an on-hover icon to indicate the
 - Project Implementation
 By the end of this course, I would like to embed as much of my previous projects as possible into this website, rather than just touching on them with text and screenshots. 
 
+- I would like to fix the spacing and resolution of some of the inserted images
 
 ## Technologies Used
 - [HTML](https://www.w3schools.com/html/)
@@ -143,21 +145,19 @@ projects.html
 
 In this Projects section, my intention initially was to try and embed working examples of these projects. After spending some time, I realized that my local environment is not suitable for this. 
 In the future, I intend to clean up my environment so that each project can be hosted individually on Github, and referenced when needed. Below is a graphic of my current environmentlanguage breakdown;
-![](images/readme_imgs/mystuff.png)
+![MyStuff Repo](images/readme_imgs/mystuff.png)
 
 ![Languages](images/readme_imgs/languages.png)
 
 ### Media
 ### images folder
-- eddie_rockets_logo.png
+- Company Logo's; Corresponding company websites. 
+- readme_imgs; Created by me
+- Project screenshots; Created by me
 
 
 ### readme_imgs folder
 - Github Private Repo screenshots acquired while logged into my github.com account. 
 
 ### Acknowledgements
-- FETAC Level 5 information technology course
-    - Html and CSS fundamentals
-- Udemy;
-    - [Web Design](https://www.udemy.com/course/web-design-for-beginners-real-world-coding-in-html-css/)
-    - [Javascript](https://www.udemy.com/course/the-complete-javascript-course/)
+- My inspiration for this project came from wanting to have an online presence where I can start, and build on. 
