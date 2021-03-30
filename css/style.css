@@ -286,6 +286,31 @@ nav .navbar-nav li a {
 /*----------  Projects Description End */
 
 /*----------  Project container*/
+.education-section {
+    font-size: 80%;
+}
+
+.education {
+    padding-bottom: 40px;
+}
+
+.education,
+a {
+    color: #dcdcaa;
+}
+
+.progress {
+    margin: 10px 0;
+}
+
+.progress-bar {
+    background-color: #2f5d72;
+}
+
+.progress-bar.completed {
+    background-color: #dcdcaa;
+}
+
 /*----------  Project container End */
 
 /*----------  Footer */
@@ -358,6 +383,10 @@ div.icons {
 
     h5 {
         text-align: justify;
+    }
+
+    .education-section {
+        font-size: 100%;
     }
 }
 
