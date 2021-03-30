@@ -10,7 +10,8 @@ body {
     background-color: rgb(64, 64, 64);
 }
 
-p>a {
+p>a,
+div>a {
     color: #dcdcaa;
 }
 
@@ -151,7 +152,7 @@ nav .navbar-nav li a {
 }
 
 .btn {
-    background-color: #519aba;
+    background-color: #2f5d72;
     width: 100%;
     max-width: 110px;
     border: 0;
@@ -161,9 +162,9 @@ nav .navbar-nav li a {
 .button-primary-override:active,
 .button-primary-override:focus,
 .button-primary-override:visited {
-    background-color: #519aba !important;
+    background-color: #2f5d72 !important;
     background-image: none !important;
-    border: none !important;
+    border: 1px solid #dcdcaa !important;
 }
 
 /*----------  Profile End */
@@ -325,7 +326,6 @@ div.icons {
         margin-bottom: 0;
         text-align: justify;
         width: 45%;
-        ;
         display: inline !important;
     }
 
