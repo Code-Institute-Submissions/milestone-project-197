@@ -343,6 +343,8 @@ a {
 .contact-me-icons ul {
     text-decoration: none;
     list-style-type: none;
+    padding-left: auto;
+    padding-right: auto;
 }
 
 /*----------  Footer */

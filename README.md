@@ -1,6 +1,6 @@
 # Personal Portfolio Website
 
-This website is a personal portfolio website to highlight my own skills, experience with programming to target potential employers, collaborators and partners. 
+This website is a personal portfolio website to highlight my own skills, experience with programming to target potential employers, collaborators and partners. My Formal CV will be available for download from the site. 
 
 Included in this overview will be insights into my own personal journey as a developer. Sections on Work Experience, Project Experience and semi-formal descriptive text with complimenting images will be the primary content across this small site. 
 
@@ -25,17 +25,22 @@ I decided it would be helpful to have a section below my work experience, highli
 ![Contact Wireframe](images/readme_imgs/wireframe-contact.png)
 
 ## UX 
-For UX Design, I'm going with a mimic of VsCode's [Dark Theme](https://code.visualstudio.com/docs/getstarted/themes).
-For the last few years this has been my primary editor, and I've come to really like the color-scheme it uses.
+For UX Design, I'm going with a mimic of VsCode's [Dark Theme](https://code.visualstudio.com/docs/getstarted/themes). 
+I also used these value references in my testing; https://docs.microsoft.com/en-us/visualstudio/extensibility/ux-guidelines/color-value-reference-for-visual-studio?view=vs-2019
+
+My decision here comes from the last few years this has been my primary editor, and I've come to really like the color-scheme it uses.
 I feel this scheme combined with a resumé/portfolio style website would be complimentary. 
 
 - Main Background; 
-
-- Interactive elements;
+`background-color: rgb(64, 64, 64);`
 
 - Headings;
+`color: #017fc6;`
+- Text/paragraphs background;
+`background-color: rgba(112, 112, 112, 0.2);`
 
-- Text/paragraphs;
+- Regular Text
+White
 
 ## Features
 - Responsive Navigation menu
@@ -62,13 +67,13 @@ By the end of this course, I would like to embed as much of my previous projects
 
 
 ## Technologies Used
-- [HTML]()
+- [HTML](https://www.w3schools.com/html/)
     - The project uses **HTML**.
-- [CSS]()
+- [CSS](https://www.w3schools.com/)
     - The project uses **CSS**.
-- [Javascript]()
+- [Javascript](https://www.javascript.com/)
     - The project uses **Javascript**.
-- [Bootstrap]()
+- [Bootstrap](https://getbootstrap.com/)
     - The project uses **Bootstap** to simplify the content structure and provide pre-built functionalities such as navigational templates and grid-classes.
 
 ## Testing
@@ -95,6 +100,8 @@ As per the image below, the text inside of the logo divs doesn't really look as 
 I wasn't able to get my profile image and about me text to automatically align side by side when the screen size exceeded 992px 
 ![Alignment](images/readme_imgs/aboutme-alignment.png)
 
+### Image/text centering/responsiveness
+Struggled a little bit with the testing of responsiveness with bootstrap. Unsure if it's due to CSS, or the bootstrap versions I was installing - however it was a bit tough getting going with the content on the page 
 
 ## Deployment
 - Github pages
@@ -130,7 +137,6 @@ projects.html
 - My experience section (overall statement)
 - Html/CSS
 - Javascript
-- Bootstrap 3
 - Vue.js
 - GoLang
 - JAVA
