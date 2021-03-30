@@ -45,6 +45,7 @@ I feel this scheme combined with a resumé/portfolio style website would be comp
 - External Linking for Social Media and Contact img links (Font-awesome)
 - Hover affect (hover.css) for images on Work Experience sections and Projects sections
 - Clickable footer links 
+- Progress bar/striped 
 
 ### Existing Features
 For my employment experience section, an on-click action(Working)
@@ -93,7 +94,8 @@ As per the image below, the text inside of the logo divs doesn't really look as 
 ### Alignment of about me section
 I wasn't able to get my profile image and about me text to automatically align side by side when the screen size exceeded 992px 
 ![Alignment](images/readme_imgs/aboutme-alignment.png)
-______
+
+
 ## Deployment
 - Github pages
 I've opted to use [Github Pages](https://pages.github.com/) 
@@ -106,12 +108,7 @@ In the future, I would like to host my website(s) myself. This would be experien
 - [Aaron Sinnott](https://ie.linkedin.com/in/aaronsinnott)
 As my mentor for this project, Aaron was detrimental in reinforcing my key understandings of what is required, and more importantly how to properly approach and manage a project from an academic standpoint. 
 
-- Udemy 
-    - [Web Design](https://www.udemy.com/course/web-design-for-beginners-real-world-coding-in-html-css/)
-    - [Javascript](https://www.udemy.com/course/the-complete-javascript-course/)
-
 Through the last year I have been spending time going through some udemy courses that helped forming of idea's and speccing out what is possible. I used this to my advantage in the Work Experience Section, implementing a small script to handle showing of text that is hidden behind an image when you click on the image. 
-
 
 ### Content
 
