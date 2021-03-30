@@ -270,13 +270,7 @@ nav .navbar-nav li a {
 
 .achievement-icon {
     color: #519aba;
-    margin: 5px;
-    padding-top: 15px;
     margin: 10px;
-}
-
-.achievement-icon p {
-    min-height: 200px;
 }
 
 /*----------  Achievements End */
@@ -320,13 +314,18 @@ div.icons {
 
     .achievement-icon {
         color: #519aba;
-        padding-top: 15px;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 0;
         text-align: justify;
         width: 45%;
         display: inline !important;
+    }
+
+    p {
+        height: auto;
+        margin-bottom: 0;
+
     }
 
     .achievement-icon.fas {
@@ -358,7 +357,11 @@ div.icons {
 }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    .work-experience-section {
+        max-width: 90%;
+    }
+}
 
 @media (max-width: 599px),
 (max-height: 700px) {
