@@ -5,13 +5,20 @@
 body {
     min-height: 100vh;
     max-width: 100%;
-    padding: 5% 5%;
+    padding-left: 5%;
+    padding-right: 5%;
     background-color: rgb(64, 64, 64);
+}
+
+p>a {
+    color: #dcdcaa;
 }
 
 h1,
 h5 {
     color: #017fc6;
+    text-align: center;
+    padding-top: 20px;
 }
 
 hr {
@@ -21,7 +28,8 @@ hr {
     border-width: 2px;
 }
 
-p {
+p,
+small {
     color: white;
     font-size: small;
 }
@@ -37,12 +45,13 @@ p {
 }
 
 .container {
-    margin-top: 20px;
+    margin-top: 10px;
     max-width: 80%;
 }
 
 .row {
     display: block;
+    margin-bottom: 0;
 }
 
 /*---------- Nav */
@@ -83,10 +92,6 @@ nav .navbar-nav li a {
     color: #519aba !important;
 }
 
-.navbar-toggler-icon {
-    color: red;
-}
-
 /*---------- Nav End */
 
 /*----------  Profile  */
@@ -102,7 +107,7 @@ nav .navbar-nav li a {
 }
 
 .aboutme-img img {
-    height: 100%;
+    height: auto;
     max-height: 260px;
     max-width: 260px;
     width: 100%;
@@ -110,7 +115,7 @@ nav .navbar-nav li a {
     border: 1px solid #1e1e1e;
 }
 
-.about-me-text {
+.highlight-text {
     margin-top: 20px;
     margin-bottom: 10px;
     background-color: rgba(112, 112, 112, 0.2);
@@ -123,18 +128,18 @@ nav .navbar-nav li a {
     margin-right: auto;
 }
 
-.about-me-text h5 {
+.highlight-text h5 {
     text-align: center;
 }
 
-.about-me-text p {
+.highlight-text p {
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 30px;
     margin-top: 15px;
     color: white;
-    text-align: justify;
-    font-size: 80%;
+    font-size: 70%;
+    text-align: center;
 }
 
 .resume-btn {
@@ -164,12 +169,11 @@ nav .navbar-nav li a {
 /*----------  Profile End */
 
 /*----------  Work Exp. */
-.work-experience-section {
+.row.work-experience-section {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
-
 
 .onClickTextOverImg {
     width: 200px;
@@ -183,7 +187,7 @@ nav .navbar-nav li a {
     position: relative;
 }
 
-.onClickTextOverImg div {
+.onClickTextOverImg div.work-text {
     position: absolute;
     color: #519aba;
     padding: 8px;
@@ -191,7 +195,7 @@ nav .navbar-nav li a {
     bottom: 0;
     right: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     border-radius: 16px;
     padding-top: 35%;
     text-align: center;
@@ -200,7 +204,7 @@ nav .navbar-nav li a {
     transition: .3s;
 }
 
-.onClickTextOverImg.show div {
+.onClickTextOverImg.show div.work-text {
     opacity: 1;
     padding-top: 40%;
     visibility: visible;
@@ -236,6 +240,16 @@ nav .navbar-nav li a {
     background-image: url("../images/eddie_rockets_logo.png");
 }
 
+.work-text {
+    color: white !important;
+    margin: 0 !important;
+    padding-top: 15px !important;
+    word-wrap: break-word !important;
+}
+
+.work-text.smaller-text {
+    font-size: 90%;
+}
 
 /*----------  Work Exp. End */
 
@@ -246,6 +260,7 @@ nav .navbar-nav li a {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    max-width: 70%;
 }
 
 .achievements-section div {
@@ -253,13 +268,15 @@ nav .navbar-nav li a {
 }
 
 .achievement-icon {
-    border: 1px solid white;
     color: #519aba;
     margin: 5px;
     padding-top: 15px;
     margin: 10px;
 }
 
+.achievement-icon p {
+    min-height: 200px;
+}
 
 /*----------  Achievements End */
 
@@ -271,7 +288,6 @@ nav .navbar-nav li a {
 
 /*----------  Footer */
 footer {
-    border: 1px solid black;
     color: #519aba;
     font-size: small;
     text-align: center;
@@ -284,25 +300,44 @@ footer i {
 
 footer .copyright {
     font-style: italic;
+    margin-bottom: 10px;
+
+}
+
+div.icons {
+    margin: 0;
 }
 
 /*----------  Footer End */
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+    .highlight-text p {
+        font-size: 85%;
+        text-align: justify;
+    }
+
     .achievement-icon {
-        border: 1px solid white;
         color: #519aba;
         padding-top: 15px;
         margin-left: auto;
         margin-right: auto;
-        text-align: center;
+        margin-bottom: 0;
+        text-align: justify;
+        width: 45%;
+        ;
+        display: inline !important;
     }
 
+    .achievement-icon.fas {
+        text-align: center;
+
+    }
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+
     .navbar-collapse {
         margin-top: -10px;
         margin-left: auto;
@@ -315,28 +350,19 @@ footer .copyright {
         margin-right: auto;
     }
 
-    .aboutme-img {
-        position: relative;
+    h5 {
+        text-align: justify;
     }
+
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-    .navbar.navbar-expand-lg {}
-
-    .achievement-icon {
-        border: 1px solid white;
-        color: #519aba;
-        padding-top: 15px;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-    }
-}
+@media (min-width: 1200px) {}
 
 @media (max-width: 599px),
 (max-height: 700px) {
-    .achievements-hidden {
+    .element-hidden {
         display: none;
     }
 }

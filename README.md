@@ -46,8 +46,15 @@ I feel this scheme combined with a resumé/portfolio style website would be comp
 - Hover affect (hover.css) for images on Work Experience sections and Projects sections
 
 ### Existing Features
+For my employment experience section, an on-click action(Working)
+![Before](on-click-before.png)
+![After](on-click-after.png)
 
 ### Features Left to Implement
+Employment Experience - On Hover 
+The functionality I wanted for this section was an on-hover icon to indicate the element can be clicked(Not Working), and an on-click action(Working). I had some trouble getting the hover the work - and opted to have the content over the functionality present. Using a paragraph block above the images, I can highlight to the end user that the images can be clicked. 
+
+![exp](on-hover.png)
 
 ## Technologies Used
 - [HTML]()
@@ -75,6 +82,11 @@ Once I got testing it in codepen and with help from a udemy course (Creditted) I
 
 ### Color scheme + hex values; 
 [Hexcol](https://hexcol.com/)
+
+### Placement of text inside work-experience logo's 
+As per the image below, the text inside of the logo divs doesn't really look as nice as I would have initially intended. 
+![text](images/readme_imgs/languages.png)
+
 
 ______
 ## Deployment
