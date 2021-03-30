@@ -107,7 +107,7 @@ Struggled a little bit with the testing of responsiveness with bootstrap. Unsure
 
 ## Deployment
 - Github pages
-I've opted to use [Github Pages](https://pages.github.com/) 
+I've opted to use [Github Pages](https://evane123.github.io/home) 
 
 The reason for this decision is due to ease of use. With my code already on Github, using Pages will save essential time avoiding the set up of multiple services and server space. 
 
