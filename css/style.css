@@ -15,6 +15,15 @@ div>a {
     color: #dcdcaa;
 }
 
+a {
+    text-decoration: none;
+}
+
+div>small {
+    font-size: 65%;
+    font-style: italic;
+}
+
 h1,
 h5 {
     color: #017fc6;
@@ -280,6 +289,20 @@ nav .navbar-nav li a {
     color: #519aba;
 }
 
+div>span.p-link-text {
+    color: #017fc6;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button>a {
+    color: white;
+    font-size: 70%;
+}
+
 /*----------  Achievements End */
 
 /*----------  Projects Description */
@@ -313,6 +336,14 @@ a {
 }
 
 /*----------  Project container End */
+
+/*----------  Contact Me section */
+.contact-me {}
+
+.contact-me-icons ul {
+    text-decoration: none;
+    list-style-type: none;
+}
 
 /*----------  Footer */
 footer,
@@ -385,6 +416,7 @@ div.icons {
     h5 {
         text-align: justify;
     }
+
 
     .education-section {
         font-size: 100%;
