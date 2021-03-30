@@ -35,6 +35,11 @@ small {
     font-size: small;
 }
 
+
+p.element-hidden {
+    margin-top: 0;
+}
+
 .page-header,
 .block-divider {
     margin-bottom: 0;
@@ -47,7 +52,7 @@ small {
 
 .container {
     margin-top: 10px;
-    max-width: 80%;
+    max-width: 90%;
 }
 
 .row {
@@ -97,7 +102,7 @@ nav .navbar-nav li a {
 
 /*----------  Profile  */
 .about-me-section {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .aboutme-img {
@@ -118,7 +123,6 @@ nav .navbar-nav li a {
 
 .highlight-text {
     margin-top: 20px;
-    margin-bottom: 10px;
     background-color: rgba(112, 112, 112, 0.2);
     border-radius: 10px;
     height: auto;
@@ -171,6 +175,7 @@ nav .navbar-nav li a {
 
 /*----------  Work Exp. */
 .row.work-experience-section {
+    margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -217,7 +222,7 @@ nav .navbar-nav li a {
     background-position: center;
     background-size: 90%;
     background-color: white;
-    opacity: 0.8;
+    opacity: 0.9;
 
 }
 
@@ -261,16 +266,18 @@ nav .navbar-nav li a {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    max-width: 70%;
 }
 
 .achievements-section div {
     height: auto;
 }
 
+.achievements-section.highlight-text {
+    max-width: 100%;
+}
+
 .achievement-icon {
     color: #519aba;
-    margin: 10px;
 }
 
 /*----------  Achievements End */
@@ -282,7 +289,8 @@ nav .navbar-nav li a {
 /*----------  Project container End */
 
 /*----------  Footer */
-footer {
+footer,
+.icons>a {
     color: #519aba;
     font-size: small;
     text-align: center;
@@ -318,7 +326,7 @@ div.icons {
         margin-right: auto;
         margin-bottom: 0;
         text-align: justify;
-        width: 45%;
+        width: 35%;
         display: inline !important;
     }
 
@@ -336,7 +344,6 @@ div.icons {
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-
     .navbar-collapse {
         margin-top: -10px;
         margin-left: auto;
@@ -352,19 +359,12 @@ div.icons {
     h5 {
         text-align: justify;
     }
-
-
 }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-    .work-experience-section {
-        max-width: 90%;
-    }
-}
+@media (min-width: 1200px) {}
 
-@media (max-width: 599px),
-(max-height: 700px) {
+@media (max-width: 599px) {
     .element-hidden {
         display: none;
     }

@@ -44,6 +44,7 @@ I feel this scheme combined with a resumé/portfolio style website would be comp
 - Form Input section for Contact Page
 - External Linking for Social Media and Contact img links (Font-awesome)
 - Hover affect (hover.css) for images on Work Experience sections and Projects sections
+- Clickable footer links 
 
 ### Existing Features
 For my employment experience section, an on-click action(Working)
@@ -51,10 +52,13 @@ For my employment experience section, an on-click action(Working)
 ![After](on-click-after.png)
 
 ### Features Left to Implement
-Employment Experience - On Hover 
+- Employment Experience - On Hover 
 The functionality I wanted for this section was an on-hover icon to indicate the element can be clicked(Not Working), and an on-click action(Working). I had some trouble getting the hover the work - and opted to have the content over the functionality present. Using a paragraph block above the images, I can highlight to the end user that the images can be clicked. 
-
 ![exp](on-hover.png)
+
+- Project Implementation
+By the end of this course, I would like to embed as much of my previous projects as possible into this website, rather than just touching on them with text and screenshots. 
+
 
 ## Technologies Used
 - [HTML]()
@@ -86,8 +90,9 @@ Once I got testing it in codepen and with help from a udemy course (Creditted) I
 ### Placement of text inside work-experience logo's 
 As per the image below, the text inside of the logo divs doesn't really look as nice as I would have initially intended. 
 ![text](images/readme_imgs/languages.png)
-
-
+### Alignment of about me section
+I wasn't able to get my profile image and about me text to automatically align side by side when the screen size exceeded 992px 
+![Alignment](images/readme_imgs/aboutme-allignment.png)
 ______
 ## Deployment
 - Github pages
