@@ -11,18 +11,18 @@ There will be three pages;
 
 # Wireframes;
 ### Home (v1)
-![Homev1 Wireframe](https://share.balsamiq.com/c/qgwUsafFrv6n8ECs72a4mg.png)
+![Homev1 Wireframe](images/readme_imgs/wireframe-homev1.png)
 
 I decided it would be helpful to have a section below my work experience, highlighting any academic and professional achievements that I have attained.
 
 ### Home (v2)
-![Homev2 Wireframe](https://share.balsamiq.com/c/gFArqK4b66LUBPTV2ANi6A.png)
+![Homev2 Wireframe](images/readme_imgs/wireframe-homev2.png)
 
 ### Projects
-![Projects Wireframe](https://share.balsamiq.com/c/b1v9stxqfJdGvX5Dxt5pGE.png)
+![Projects Wireframe](images/readme_imgs/wireframe-projects.png)
 
 ### Contact
-![Contact Wireframe](https://share.balsamiq.com/c/aZeQRHAjPDTxiM6CWQ1Prs.png)
+![Contact Wireframe](images/readme_imgs/wireframe-contact.png)
 
 ## UX 
 For UX Design, I'm going with a mimic of VsCode's [Dark Theme](https://code.visualstudio.com/docs/getstarted/themes).
@@ -48,13 +48,13 @@ I feel this scheme combined with a resumé/portfolio style website would be comp
 
 ### Existing Features
 For my employment experience section, an on-click action(Working)
-![Before](on-click-before.png)
-![After](on-click-after.png)
+![Before](images/readme_imgs/on-click-before.png)
+![After](images/readme_imgs/on-click-after.png)
 
 ### Features Left to Implement
 - Employment Experience - On Hover 
 The functionality I wanted for this section was an on-hover icon to indicate the element can be clicked(Not Working), and an on-click action(Working). I had some trouble getting the hover the work - and opted to have the content over the functionality present. Using a paragraph block above the images, I can highlight to the end user that the images can be clicked. 
-![exp](on-hover.png)
+![exp](images/readme_imgs/on-hover.png)
 
 - Project Implementation
 By the end of this course, I would like to embed as much of my previous projects as possible into this website, rather than just touching on them with text and screenshots. 
@@ -92,7 +92,7 @@ As per the image below, the text inside of the logo divs doesn't really look as 
 ![text](images/readme_imgs/languages.png)
 ### Alignment of about me section
 I wasn't able to get my profile image and about me text to automatically align side by side when the screen size exceeded 992px 
-![Alignment](images/readme_imgs/aboutme-allignment.png)
+![Alignment](images/readme_imgs/aboutme-alignment.png)
 ______
 ## Deployment
 - Github pages
