@@ -1,5 +1,7 @@
 # Personal Portfolio Website
 
+[Milestone Project Home Page](https://evane123.github.io/home) 
+
 This website is a personal portfolio website to highlight my own skills, experience with programming to target potential employers, collaborators and partners. My Formal CV will be available for download from the site. 
 
 Included in this overview will be insights into my own personal journey as a developer. Sections on Work Experience, Project Experience and semi-formal descriptive text with complimenting images will be the primary content across this small site. 
